@@ -1,0 +1,302 @@
+/*    简历预览：用户个人信息    */
+.preview-infor{
+    display: block;
+    width: 100%;
+    height: 138px;
+    float: left;
+    border: 1px solid white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.preview-infor:hover{
+    border: 1px solid #FF6000;
+}
+
+.preview-infor:hover .user-title img{
+    display: block;
+}
+
+.p-user-content{
+    width: 85%;
+    height: 100%;
+    float: right;
+}
+
+.p-user-icon{
+    width: 85px;
+    height: 104px;
+    float: left;
+    background: url("../images/man.png");
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.user-title{
+    width: 670px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.p-username{
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.user-title img{
+    display: none;
+    float: right;
+    margin-top: 5px;
+    margin-right: 150px;
+}
+
+.p-user-content p{
+    font-size: 14px;
+    color: #333333;
+}
+
+.p-user-connection{
+    width: 670px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.p-user-connection i{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 10px;
+
+}
+
+.conn-left{
+    float: left;
+}
+
+.conn-left img{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 2.5px;
+}
+
+.conn-right{
+    float: left;
+    margin-left: 150px;
+}
+
+.conn-right img{
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 2.5px;
+    margin-left: 30px;
+}
+
+
+/*  年收入  */
+
+.show-income{
+    float: left;
+    width: 100%;
+    height: 70px;
+    border: 1px solid white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.show-income:hover{
+    border: 1px solid #FF6000;
+}
+
+.show-income:hover .year-income-title img{
+    display: block;
+}
+
+.year-income-title i{
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+}
+
+.year-income-title img{
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 25px;
+    float: right;
+    margin-right: 150px;
+}
+
+
+/*      求职意向         */
+.job-intention-show{
+    width: 100%;
+    height: 300px;
+    float: left;
+    border: 1px solid white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.job-intention-show:hover{
+    border: 1px solid #ff6000;
+}
+
+.job-intention-show:hover .job-show-title img{
+    display: block;
+}
+
+.job-show-title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.job-show-title h3{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FF6000;
+}
+
+.job-show-title img{
+    display: none;
+    float: right;
+    margin: 15px;
+    margin-right: 150px;
+}
+
+
+.show-intention-content span{
+    font-size: 14px;
+    color: #999999;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.show-intention-content i{
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+/*      工作经验展示        */
+.experience{
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c2c2c2;
+    float: left;
+}
+
+.job-experience-show{
+    display: block;
+}
+
+.jes-title{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #ff6000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.jes-title h3{
+    float: left;
+
+}
+
+.add-job-exper, .add-pro-exper,.add-edu-exper,.add-aword-exper,.add-skill-exper{
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    margin-right: 150px;
+}
+
+.jes-content{
+    float: left;
+    width: 790px;
+    padding-left:  20px;
+    padding-bottom: 15px;
+    border: 1px solid white;
+    border-bottom: 1px solid lightgray;
+}
+
+.jes-content:hover{
+     border: 1px solid #ff6000;
+ }
+
+.jes-content:hover .jesc-row a{
+    display: inline-block;
+}
+
+.jesc-row{
+    margin-top: 10px;
+}
+
+.em1{
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.em2{
+    font-style: normal;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.jesc-row a{
+    display: none;
+}
+
+.jesc-row .jes-update{
+    margin-left: 80px;
+}
+
+.jesc-row .jes-delete{
+    margin-left: 15px;
+}
+
+.jes-content span, .pro-con span{
+    font-size: 14px;
+    color: #666666;
+}
+
+
+/*    项目经验   */
+.pro-experience-show{
+    display: block;
+}
+
+
+
+/*    教育经历    */
+
+.edu-experience-show{
+    display: block;
+}
+
+.major-right {
+    margin-left: 40px;
+}

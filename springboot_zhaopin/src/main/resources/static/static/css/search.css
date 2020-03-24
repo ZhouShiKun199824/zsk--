@@ -1,0 +1,475 @@
+body,div{
+    margin: 0;
+    padding: 0;
+}
+
+/*导航条*/
+.header{
+    width: 100%;
+    height: 88px;
+}
+.header-bar{
+    width: 100%;
+    height: 32px;
+    background-color: #ff6000;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: white;
+}
+.header-bar-1{
+    margin-left:0px;
+}
+.header-bar span{
+    display:inline-block;
+    width: 100px;
+    height: 32px;
+}
+.header-bar-right-a{
+    margin-left: 280px;
+    display:inline-block;
+    width: 120px;
+    height: 32px;
+}
+.header-bar a{
+    text-decoration: none;
+    color: white;
+}
+.header-bar-denglu{
+    background-color:#ffa000;
+    height: 40px;
+}
+.header-bar-left-1:hover div{
+    display: block;
+}
+.shou-top{
+    width: 100%;
+}
+.shou-top .header-team{
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.header-team:hover a{
+    color: #1f1f1f;
+}
+.header-team span{
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+.shou-top-1{
+    float: right;
+}
+.shou-top-1 a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.shou-top-1 a:hover{
+    color: red;
+}
+.shou-top-1-01{
+    margin-right: 150px;
+}
+.shou-top-1-img1{
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.shou-top-1-img2{
+    margin-left: 180px;
+    margin-top: 18px;
+}
+.header-team span img{
+    float: left;
+}
+
+
+/*搜索*/
+ul{
+    list-style: none;
+    width: 760px;
+    height: 100%;
+    margin-left: 80px;
+}
+ul li{
+    float: left;
+    margin-right: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.search-all ul li a:hover{
+    color: #E2231A;
+}
+.search-all{
+    width: 1002px;
+    height: 300px;
+    margin: 15px auto;
+    border: 1px #EEEEEE solid;
+    font-size: 13px;
+}
+.search-all .search-date{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px #EEEEEE solid;
+    position: relative;
+}
+.search-all .search-date .search-title{
+    color: #999999;
+    position: absolute;
+    left: 15px;
+}
+.search-all .title{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.search-all .title .titlespan{
+    color: #999999;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+.search-all .title .titlefilter{
+    width: 760px;
+    height: 100%;
+    margin-left: 120px;
+    line-height: 30px;
+}
+.search-all .title .titlefilter span{
+    color: #E2231A;
+}
+.dw-tlc{
+    width: 1002px;
+    height: 44px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    border-top: 1px #EEEEEE solid;
+    border-bottom: 1px #EEEEEE solid;
+}
+.dw-tlc .chall{
+    width: 81px;
+    height: 42px;
+    border-right: 1px #EEEEEE solid;
+    float: left;
+    text-align: center;
+    line-height: 42px;
+}
+.dw-tlc .op{
+    width: 280px;
+    height: 35px;
+    float: left;
+    position: relative;
+    font-size: 13px;
+}
+.dw-tlc .rt{
+    width: 119px;
+    height: 42px;
+    border-left: 1px #EEEEEE solid;
+    float: right;
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    line-height: 42px;
+}
+.dw-tlc .rt1:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+.dw-tlc .chall em{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px #EEEEEE solid;
+}
+.em{
+    background: url("../images/select.png") no-repeat;
+}
+.dw-tlc .chall span{
+    font-size: 13px;
+    color: #999999;
+}
+.dw-tlc .op .but-sq{
+    width: 125px;
+    height: 28px;
+    background-color: #FF6000;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    border-radius: 2px;
+}
+.dw-tlc .op .but-sq:hover{
+    background-color: #ca4c00;
+}
+.dw-tlc .op .but-sq a{
+    text-decoration: none;
+    color: white;
+    margin-left: 24px;
+}
+.dw-tlc .op .but-sq a img{
+    margin-top: 3px;
+}
+.dw-tlc .op .but-sq a span{
+    line-height: 28px;
+    position: relative;
+    left: 0;
+    top: -2px;
+}
+.dw-tlc .op .collection{
+    width: 123px;
+    height: 26px;
+    background-color: #FFF2E3;
+    border: 1px #FFB865 solid;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 2px;
+}
+.dw-tlc .op .collection:hover{
+    cursor: pointer;
+    background-color: #ebdfd2;
+}
+.dw-tlc .op .collection .icon-collection{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/icon_job_orange.d1a35c10.png");
+    background-position: 0 22px;
+    position: relative;
+    top: 3px;
+}
+.dw-tlc .op .collection span{
+    color: #ff6000;
+    position: relative;
+    top: -2px;
+}
+.el{
+    width: 1002px;
+    height: 31px;
+    border-bottom: 1px #EEEEEE solid;
+    margin: auto;
+    font-size: 13px;
+    color: #999999;
+    text-align: center;
+    line-height: 31px;
+}
+.el .t1{
+    display: inline-block;
+    width: 315px;
+}
+.el .t2{
+    display: inline-block;
+    width: 275px;
+}
+.el .t3{
+    display: inline-block;
+    width: 120px;
+}
+.el .t4{
+    display: inline-block;
+    width: 150px;
+}
+.el .t5{
+    display: inline-block;
+    width: 110px;
+}
+.options-content{
+    width: 100%;
+}
+.options-content div{
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 1px #EEEEEE solid;
+}
+.options-content div:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+/*.options-content div em {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px #EEEEEE solid;
+    position: relative;
+    left: 13px;
+    top: 4px;
+}
+.options-content div :nth-child(2) a{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    left: 17px;
+    text-decoration: none;
+    color: black;
+}
+.options-content div :nth-child(2) a:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.options-content div :nth-child(3) a{
+    display: inline-block;
+    width: 400px;
+    overflow: hidden;
+    color: #999999;
+    text-decoration: none;
+}
+.options-content div :nth-child(3) a:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.options-content div :nth-child(4){
+    display: inline-block;
+    width: 200px;
+    color: #999999;
+}
+.options-content div :nth-child(5){
+    display: inline-block;
+    width: 100px;
+    color: #ff6000;
+}
+.options-content div :nth-child(6){
+    display: inline-block;
+    width: 100px;
+    color: #999999;
+}*/
+.page{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.page :hover{
+    cursor: pointer;
+}
+.page .previous-page{
+    width: 70px;
+    height: 30px;
+    border: 1px #EEEEEE solid;
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+.page .next-page{
+    width: 70px;
+    height: 30px;
+    border: 1px #EEEEEE solid;
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+.page .con{
+    display: flex;
+    justify-content: space-around;
+}
+.page .con div{
+    height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px #EEEEEE solid;
+    color: #999999;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.page .previous-page:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+.page .next-page:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+.page .con div:hover{
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+
+.prepage:hover{
+    cursor: pointer;
+}
+.nextpage:hover{
+    cursor: pointer;
+}
+
+
+/*var str = "<div>\n" +
+"        <em></em>\n" +
+"        <span><a href='detail.html'>" + jobName + "</a></span>\n" +
+"        <span><a href='/zhaopin/company?option=getbyid&companyId="+companyid+"'>" + companyName + "</a></span>\n" +
+"        <span>" + jobCity + "</span>\n" +
+"        <span>" + minSalary+"-"+maxSalary +"万/月"+ "</span>\n" +
+"        <span>" + publishTime + "</span>\n" +
+"    </div>";*/
+
+.searchjbb span a{
+    text-decoration: none;
+    color: #0C0C0C;
+}
+.searchjbb span{
+    display: inline-block;
+    height: 100%;
+    margin-left: 30px;
+}
+.searchjobname{
+    margin-left: 60px;
+    width: 300px;
+}
+.searchjobcom{
+    width: 300px;
+}
+.searchjincity{
+    text-align: center;
+    width:100px;
+}
+.searchjibmoney{
+    width: 200px;
+}
+.searchjobtime{
+    width: 200px;
+}
+.searckkw{
+    width: 100%;
+    height: 100px;
+}
+.searchmain{
+    width: 800px;
+    height: 100px;
+    margin:auto;
+}
+.searchbox{
+    width:400px;
+    height: 60px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+.searchkeyword{
+    display: inline-block;
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid red;
+}
+.startsearch{
+    margin-top: 15px;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: #D75100;
+    color: #0C0C0C;
+}
+
+

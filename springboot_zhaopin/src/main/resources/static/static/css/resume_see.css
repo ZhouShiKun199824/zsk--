@@ -1,0 +1,206 @@
+body,h3{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #5DD5C8;
+}
+
+.header>img{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.header-right{
+    width: 200px;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+}
+
+.header-right>img{
+    text-align: right;
+    margin-top: 11px;
+   margin-left: 50px;
+}
+
+.main{
+    width: 75%;
+    margin: 0 auto;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    background-color: #F8F9FA;
+}
+
+
+.user{
+    width: 100%;
+    height: 150px;
+    background-color: #3F4160;
+}
+
+.user-img{
+    width: 85px;
+    height: 104px;
+    float: left;
+    margin: 30px 50px 15px;
+    background: url("../images/man.png");
+    background-color: white;
+}
+
+.user-con{
+    width: 820px;
+    height: 104px ;
+    float: right;
+    margin-top: 30px;
+}
+
+.user-first-row{
+    color: white;
+    float: left;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+}
+
+.user-first-row h3{
+    float: left;
+}
+
+.sp1{
+    margin-right: 250px;
+    float: right;
+}
+
+.user-row{
+    color: white;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    float: left;
+    margin-top: 10px;
+}
+
+.user-row span{
+    float: left;
+}
+
+.user-row img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    float: left;
+
+}
+
+.img1{
+    margin-left: -10px !important;
+}
+
+
+.recent-academic{
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid #999999;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+em{
+    font-style: normal;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3F4160;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+}
+
+i{
+    font-style: normal;
+}
+
+
+.year-income,.job,.job-experience,.project-experience,.edu-experience,.aword,.skill{
+    border-bottom: 1px solid #999999;
+}
+
+.comment-self{
+    margin-bottom: 10px;
+}
+
+.comment-label{
+    width: 120px;
+    height: 60px;
+    text-align: right;
+    float: left;
+}
+
+.comment-con{
+    width: 830px;
+    height: 60px;
+
+}
+
+.je-row{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.emphasize{
+    margin-left: 15px;
+}
+
+.academic-position{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

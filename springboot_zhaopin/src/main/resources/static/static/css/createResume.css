@@ -1,0 +1,1007 @@
+/*===============body及其他标签设置================*/
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*====================网页头部===============================*/
+.header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.head{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+
+/*=====头部左侧====== */
+.head-left{
+    width:40% ;
+    height: 100%;
+    float: left;
+}
+
+.head-left .head-left-first{
+    width: 28%;
+    height: 100%;
+    float: left;
+    background:url("../images/logo_white.png") no-repeat 0px 9px;
+}
+
+.head-left .head-left-second{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url("../images/slogen.png") no-repeat 0px 22px;
+}
+
+/*=====头部右侧====== */
+.head-right{
+    width:40% ;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+.head-right ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.head-right ul li{
+    display: inline-block;
+    height: 100%;
+    margin-left:30px ;
+}
+
+.head-right ul li a{
+    display: inline-block;
+    height: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+/*====================网页主体===============================*/
+.main{
+    width:75%;
+    height: 900px;
+    margin: auto;
+}
+
+.body-content{
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+/*<!-- 左侧导航 -->*/
+
+.left-nav{
+    width: 210px;
+    height: 580px;
+    float: left;
+    background-color: #FAFAFA;
+
+}
+
+.left-nav .left-nav-desc{
+    width: 100%;
+    height: 210px;
+    border-top: 2px solid #FF6000 !important;
+    border: 1px solid #DDDDDD ;
+}
+
+.title{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 90px;
+}
+
+.left-nav-desc .title-h3{
+    display: inline-block;
+    float: left;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.update-resume-name{
+    display: inline-block;
+    float: right;
+    margin-top: 3px;
+}
+
+.left-nav-desc ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+}
+
+.left-nav-desc ul li{
+    display: block;
+    height: 25px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.star{
+    width: 100px;
+    height:20px;
+/*    background-color: #18C8CD;*/
+    background: url("../images/star2.svg");
+    background-size: 20px 20px;
+}
+
+.left-nav-desc ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #DDDDDD;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+/* =============     左侧导航部分      ==============  */
+
+.left-nav-url{
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    height: 440px;
+}
+
+.left-nav-url ul li{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #333333;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+
+}
+
+.left-nav-url ul li a{
+    color: #333333;
+}
+
+.left-nav-url ul li a:hover{
+    color: #d81e06;
+
+}
+
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon1{
+    background: url("../images/people1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon1:hover{
+    background: url("../images/people1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon2{
+    background: url("../images/bazi1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon2:hover{
+    background: url("../images/bazi2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon3{
+    background: url("../images/bao1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon3:hover{
+    background: url("../images/bao2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon4{
+    background: url("../images/doc1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon4:hover{
+    background: url("../images/doc2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon5{
+    background: url("../images/maozi1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon5:hover{
+    background: url("../images/maozi2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon6{
+    background: url("../images/tushuguan1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon6:hover{
+    background: url("../images/tushuguan2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon7{
+    background: url("../images/aword1.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+.icon7:hover{
+    background: url("../images/aword2.svg") no-repeat 0 3px ;
+    background-size: 20px 20px;
+}
+
+
+/*++++++++++++++      中间部分内容        ++++++++++++++++*/
+.content{
+    width: 790px;
+    height: 1000px;
+    float: right;
+}
+
+/*     用户个人信息      */
+.user-infor{
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: #FCFCFC;
+    border:1px solid #D75100;
+}
+
+/*   用户头像  */
+
+.user-icon{
+    width: 85px;
+    height: 130px;
+    float: left;
+    margin: 12px 15px;
+}
+
+.user-page{
+    display: inline-block;
+    width: 85px;
+    height: 105px;
+    background: url("../images/man.png");
+}
+
+.update-user-page{
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    width: 250px;
+    height: 100px;
+    background-color: #EEEEEE;
+}
+
+.update-user-page input{
+    margin: 10px 10px;
+}
+
+.update-user-page p{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    font-size: 12px;
+    color: #333333;
+    margin-left: 10px;
+
+}
+
+.do{
+    width: 100%;
+    height: 20px;
+}
+
+.do a{
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    color: #B0B0B0;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+/*     个人信息      */
+.user-content{
+    width: 650px;
+    height: 220px;
+    float: left;
+    margin-top: 15px;
+    background-color: #FCFCFC;
+}
+
+.user-content i{
+    display: inline-block;
+    width: 7px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px;
+    float: left;
+    font-style: normal;
+    font-size: 14px;
+    color: #ff6000;
+}
+
+.user-content input,.select-type{
+    width: 193px;
+    height: 28px;
+    border: 1px solid #DDDDDD;
+    outline: none;
+    padding-left: 15px;
+}
+
+.message-row{
+    width:100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.message-row .user-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+
+.message-row .user-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.user-type{
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.man-btn,.women-btn{
+    display: inline-block;
+    width: 105px;
+    height: 28px;
+    font-size: 14px;
+    border: 1px solid #DDDDDD;
+    outline: none;
+    cursor: pointer;
+}
+
+.man-btn .man-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/man-w.svg") ;
+    background-size: 15px 15px;
+}
+
+.man-btn{
+    background-color: #ff9f20;
+}
+
+.women-btn{
+    margin-left: -5px;
+}
+
+.women-btn .women-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/women-r.svg") ;
+    background-size: 15px 15px;
+}
+
+.uer-id{
+    width: 100%;
+    height: 30px;
+}
+
+.uer-id .card-select{
+    width: 110px;
+    height: 32px;
+    border: 1px solid #DDDDDD;
+    outline: none;
+    padding-left: 15px;
+}
+
+
+/*      保存、取消按钮     */
+.user-infor-btn{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+    float: left;
+}
+
+.btn-container{
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
+.user-save-btn,.user-undo-btn{
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.user-save-btn{
+    margin-left: 35px;
+    margin-right: 20px;
+    background-color: #ff6000;
+    color: white;
+}
+
+.user-undo-btn{
+    background-color: white;
+    color: #999999;
+    border: 1px solid #b0b0b0;
+}
+
+.user-undo-btn:hover{
+    background-color: #EEEEEE;
+}
+
+
+/*      年收入       */
+.year-income{
+    display: none;
+    width: 100%;
+    height: 200px;
+    float: left;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.year-income-title{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.year-income-title h3{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FF6000;
+}
+
+.year-income-title span{
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #999999;
+    margin-left: 5px;
+
+}
+
+.year-income-content{
+    width: 100%;
+    height: 110px;
+    border: 1px solid #FF6000;
+}
+
+.income{
+    width: 100%;
+    height: 30px;
+    margin: 15px 15px;
+}
+
+.income span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.income input{
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #DDDDDD;
+    padding-left: 15px;
+    margin:0px 15px;
+    outline: none ;
+}
+
+.income-btn{
+    width: 100%;
+    height: 30px;
+}
+
+.income-btn-center{
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+
+.income-save-btn{
+    display:inline-block ;
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #FF6000;
+    cursor: pointer;
+    color: white;
+}
+
+.income-undo-btn{
+    display:inline-block ;
+    width: 80px;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #DDDDDD ;
+    float: right;
+    cursor: pointer;
+    color: #c3c3c3;
+}
+
+/*     求职意向      */
+.job-intention{
+    display: none;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.job-title{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.job-title h3{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FF6000;
+}
+
+.job-intention-content{
+    width: 100%;
+    height: 400px;
+    background-color: #FCFCFC;
+    border: 1px solid #FF6000 ;
+}
+
+.job-intention-content span{
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.job-intention-content i{
+    display: inline-block;
+    float: left;
+    font-style: normal;
+    font-size: 14px;
+    color: #ff6000;
+    margin: 5px 5px;
+}
+
+.job-row-first{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.job-row-first .salary-type{
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #DDDDDD;
+}
+
+.job-row-first .year-salary{
+    display: block;
+    float: left;
+    width: 230px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #DDDDDD;
+
+}
+
+.month-salary,.day-salary,.hour-salary{
+    float: left;
+    width: 220px;
+    height: 27px;
+    margin-left: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #DDDDDD;
+}
+
+.month-salary{
+    display: none;
+}
+
+.day-salary{
+    display: none;
+}
+
+.hour-salary{
+    display: none;
+}
+
+.job-row{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.job-row input{
+    display: inline-block;
+    float: left;
+    width: 310px;
+    height: 28px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #DDDDDD;
+}
+
+.job-row p{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #8b8b8b;
+    float: left;
+}
+
+.introduce-self{
+    display: inline-block;
+    width: 310px;
+    height: 50px;
+    padding-left: 10px;
+
+}
+
+.job-row-last{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 35px;
+}
+
+.job-row-last .job-row-last-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.job-row-last .job-row-last-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.arrival-job-time,.job-type{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    margin-left: 15px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.job-btn{
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+}
+
+.job-btn .job-save{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: #ff6000;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 300px;
+}
+
+.job-btn .job-not-save{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: #999999;
+    outline: none;
+    border: none;
+    border: 1px solid #999999;
+    margin-left: 15px;
+}
+
+/*        工作经验         */
+
+.create_experience{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.job-experience{
+    display: none;
+}
+
+.job-expr-title{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #ff6000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.job-expr-content{
+    width: 100%;
+    height: 410px;
+    border: 1px solid #ff6000;
+}
+
+.job-expr-content span{
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: #666666;
+}
+
+.job-expr-content i{
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ff6000;
+}
+
+.job-expr-row{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+.job-expr-row input,select{
+    display: inline-block;
+    float: left;
+    width: 290px;
+    height: 28px;
+    border: 1px solid #DDDDDD;
+    padding-left: 10px;
+}
+
+.time-ipt{
+    width: 300px !important;
+}
+
+.company-type,.edu-select,.expr-company-size{
+    width: 300px;
+    height: 31px;
+}
+
+.job-description,.pro-description,.pro-duty-description,.major-description{
+    width: 300px;
+    height: 60px;
+}
+
+.last-expr-row{
+    margin-top: 40px;
+}
+
+.btn-quan,.btn-jian,.btn-yes,.btn-no{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-quan,.btn-yes{
+    background-color: #ff6000;
+    color: white;
+}
+
+.btn-jian,.btn-no{
+    border: 1px solid #666666;
+    background-color: white;
+    margin-left: -5px;
+}
+
+.job-expr-btn-container{
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    float: left;
+}
+
+.job-expr-save,.job-expr-unsave,.pro-expr-save,.pro-expr-unsave,.edu-expr-save,.edu-expr-unsave,.aword-expr-save,.aword-expr-unsave,.skill-expr-save,.skill-expr-unsave{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.job-expr-save,.pro-expr-save,.edu-expr-save,.aword-expr-save,.skill-expr-save{
+    background-color: #ff6000;
+    color: white;
+    margin-left: 300px;
+}
+
+.job-expr-unsave,.pro-expr-unsave,.edu-expr-unsave,.aword-expr-unsave,.skill-expr-unsave{
+    border: 1px solid #666666;
+    background-color: white;
+    margin-left: 15px;
+}
+
+
+/*      项目经验       */
+.pro-exp{
+    display: none;
+}
+
+.pro-time-ipt{
+    width: 300px!important;
+}
+
+.pro-expr-content{
+    height: 350px !important;
+}
+
+.des{
+    margin-top: 40px;
+}
+
+.pro-expr-btn-container{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    float: left;
+}
+
+
+/*     教育经历     */
+.edu-exp{
+    display: none;
+}
+
+.edu-time-ipt{
+    width: 300px!important;
+}
+
+.isAllDay{
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: 7.5px;
+    margin-left: 15px;
+}
+
+#allday{
+    width: 60px;
+    text-align: center;
+}
+
+.edu-content{
+    height: 350px;
+}
+
+
+
+
+/*      在校荣誉      */
+
+.aword{
+    display: none;
+}
+
+.aword-content{
+    height: 200px !important;
+}
+
+
+/*     技能        */
+.skill{
+    display: none;
+}
+
+.skill-content{
+    height: 150px;
+}
+
+.skill-level{
+    width: 300px!important;
+}

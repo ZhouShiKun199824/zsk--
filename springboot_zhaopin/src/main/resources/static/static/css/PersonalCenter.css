@@ -1,0 +1,517 @@
+body,div,ul,li,span,img,p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 88px;
+    clear: both;
+}
+.header-bar{
+    width: 100%;
+    height: 32px;
+    background-color: #ff6000;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: white;
+}
+.header-bar-1{
+    margin-left:0px;
+}
+.header-bar span{
+    display:inline-block;
+    width: 100px;
+    height: 32px;
+}
+.header-bar-right-a{
+    margin-left: 280px;
+    display:inline-block;
+    width: 120px;
+    height: 32px;
+}
+.header-bar a{
+    text-decoration: none;
+    color: white;
+}
+.header-bar-denglu{
+    background-color:#ffa000;
+    height: 40px;
+}
+.header-bar-left-1:hover,.header-bar-1 :hover{
+    background-color: #5b6c7d;
+    opacity:0.5;
+}
+.header-bar-left-1:hover div{
+    display: block;
+}
+.download{
+    width: 100px;
+    height: 100px;
+    background-color: #5b6c7d;
+    display: none;
+}
+
+.header-team{
+    width: 100%;
+    height: 56px;
+    background-color:white;
+    border-bottom: 1px solid #eee;
+}
+.header-team .header_team_and{
+    width: 70%;
+    margin: auto;
+}
+.header-team span{
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+.header-team .shou-top-1{
+    position: relative;
+    left: 50px;
+    float: right;
+}
+.header-team .shou-top-1 a{
+    text-decoration: none;
+    color: #333;
+}
+.header-team .shou-top-1 a:hover{
+    color:#ff6000;
+}
+.father{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: start;
+}
+
+.father .left{
+    width: 15%;
+    height: 700px;
+}
+.father .right{
+    width: 75%;
+    height: 800px;
+    margin-left: 5%;
+    display: none;
+}
+.father .left .left-a{
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    text-decoration: none;
+    line-height: 47px;
+    display: block;
+    color: black;
+    font-size: 14px;
+    padding:0 5px;
+    font-family:"microsoft yahei";
+}
+.father .left .left-a:first-child{
+    color: #ff6000;
+    border-left:2px solid #ff6000;
+
+}
+.father .left .left-a:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.father .left #abtn{
+    border-bottom: 1px solid #e6e6e6;
+}
+.father .left .abtn{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 47px;
+    display: block;
+}
+.father .left .abtn:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.father .left .abtn a{
+    font-family: "microsoft yahei";
+    text-decoration: none;
+    font-size: 14px;
+    color: #888888;
+}
+.right .mt{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #efefef;
+}
+
+.right .mt .mt-ul{
+    list-style: none;
+}
+.right .mt .mt-ul li{
+    font-size: 19px;
+    color: #999;
+    padding: 0 15px;
+    float: left;
+    font-family: "microsoft yahei";
+    line-height: 44px;
+}
+.right .mt .mt-ul li:hover{
+    cursor: pointer;
+}
+.right .mt .mt-ul li:first-child{
+    color: #333;
+    border-bottom: 2px solid #ff6000;
+}
+/*.right .div-table{*/
+    /*display: none;*/
+/*}*/
+.right .div-table .el-title{
+    margin-top: 15px;
+    background: #fafafa;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+
+}
+.right .div-table .el-title span{
+    color:  #999;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.right .div-table .el-title .t1{
+    width: 23%;
+}
+.right .div-table .el-title .t2{
+    width: 25%;
+}
+.right .div-table .el-title .t3{
+    width: 15%;
+}
+.right .div-table .el-title .t4{
+    width: 16%;
+}
+.right .div-table .el-title .t5{
+    width: 15%;
+}
+.right .div-table .el-foot{
+    background: #fafafa;
+    border-bottom: 1px solid #efefef;
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    color: #666;
+}
+.right .div-table .el-foot .all-check{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white;
+}
+.right .div-table .el-foot .f1{
+    line-height: 40px;
+    margin-left: 5px;
+}
+.right .div-table .el-foot .glyphicon{
+    width: 125px;
+    height: 28px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+    background: #ddd;
+    color: white;
+    position: relative;
+    left: 60%;
+}
+.right .div-table .el-foot .glyphicon:hover{
+    cursor: pointer;
+}
+.right .div-table .el-body{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #efefef;
+    line-height: 41px;
+}
+.right .div-table .el-body .one-checked{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: white;
+}
+.right .div-table .el-body span{
+    height: 100%;
+    line-height: 44px;
+    font-size: 16px;
+    display: inline-block;
+}
+.right .div-table .el-body .s1{
+    width: 23%;
+}
+.right .div-table .el-body .s1:hover{
+    color:#ff6000 ;
+    cursor: pointer;
+}
+.right .div-table .el-body .s2{
+    width: 25%;
+}
+.right .div-table .el-body .s2:hover{
+    color : #ff6000;
+    cursor: pointer;
+
+}
+.right .div-table .el-body .s3{
+    width: 15%;
+    padding-left: 5px;
+    color: #797979;
+}
+.right .div-table .el-body .s4{
+    width: 16%;
+    font-size: 14px;
+    color: #ff6000;
+}
+.right .div-table .el-body .s5{
+    width: 15%;
+    color: #00b3ee;
+}
+.right .div-table .el-body .s5 .apply:hover{
+    cursor: pointer;
+    color: #ff6000;
+}
+.right .div-table .el-body .s5 .deleon:hover{
+    cursor: pointer;
+    color: #ff6000;
+}
+.right .company{
+    margin-top: 15px;
+}
+.right .company .com-body{
+    width: 100%;
+    height: 81px;
+    border-bottom: 1px solid #efefef;
+}
+.right .company .com-body img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.right .company .com-body .describe{
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    height: 80px;
+    font-family: "microsoft yahei";
+    color: #999;
+}
+.right .company .com-body .describe a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.right .company .com-body .describe a:hover{
+    color: #ff6000;
+}
+.right .company .com-body .job{
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    margin-top: 20px;
+    margin-left: 400px;
+    float: left;
+}
+.right .company .com-body .job p{
+    margin: 0;
+    color: #999;
+}
+.right .company .com-body .job .job-numb{
+    color: #ff6000;
+}
+.right .company .com-body .unfollow{
+    float: left;
+    margin-top: 20px;
+    line-height: 45px;
+    margin-left: 100px;
+    color: #00457d;
+}
+.right .company .com-body .unfollow:hover{
+    cursor: pointer;
+    color: #ff6000;
+}
+.right .company-div{
+    display: none;
+}
+.father .resume-center{
+    width: 75%;
+    height: 800px;
+    margin-left: 5%;
+    display: none;
+}
+.father .safety_center{
+    width: 75%;
+    height: 800px;
+    margin-left: 5%;
+    display: none;
+}
+.father .safety_center .safety_top{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #efefef;
+}
+.father .safety_center .safety_top .top-ul{
+    list-style: none;
+}
+.father .safety_center .safety_top li{
+    font-size: 19px;
+    padding: 0 15px;
+    float: left;
+    font-family: "microsoft yahei";
+    line-height: 44px;
+    color: #333;
+    border-bottom: 2px solid #ff6000;
+}
+
+.father .safety_center .safediv{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+.father .safety_center .safediv .glyphicon{
+    position: relative;
+    left: 20px;
+    width: 25%;
+}
+.father .safety_center .safediv .s{
+    font-size: 16px;
+    margin-left: 30px;
+    font-family: "microsoft yahei" ;
+}
+.father .safety_center .safediv .s_user{
+    margin-left: 45px;
+}
+.father .safety_center .safediv .rol1{
+    font-size: 14px;
+    color: #666;
+    margin-left: 30px;
+    display: inline-block;
+    width: 60%;
+}
+.father .safety_center .safediv .safe_operation{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: #00457d;
+}
+.father .safety_center .safediv .safe_operation:hover{
+    cursor: pointer;
+    color:rgb(255, 96, 0);
+}
+.father .resume_center{
+    width: 75%;
+    height: 800px;
+    margin-left: 5%;
+    display: none;
+}
+.father .resume_center .resume_top{
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #efefef;
+}
+.father .resume_center .resume_top .top-ul{
+    list-style: none;
+}
+.father .resume_center .resume_top li{
+    font-size: 19px;
+    padding: 0 15px;
+    float: left;
+    font-family: "microsoft yahei";
+    line-height: 44px;
+    color: #333;
+    border-bottom: 2px solid #ff6000;
+}
+.father .resume_center .resume_top_op{
+    width: 300px;
+    position: relative;
+    left: 60%;
+    top: -30px;
+    font-size: 15px;
+}
+.father .resume_center .resume_top_op a{
+    text-decoration: none;
+}
+.father .resume_center .rbox{
+    width: 100%;
+}
+.father .resume_center .rbox .tit{
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f8f8f8;
+}
+.father .resume_center .rbox .chearfix{
+    width: 90%;
+    margin: auto;
+
+}
+.father .resume_center .rbox .chearfix li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+    font-family: "microsoft yahei";
+    font-size: 12px;
+    color: #999;
+    list-style: none;
+}
+.father .resume_center .rbox .rli{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+.father .resume_center .rbox .rli .chearfix li{
+    font-size:16px ;
+    color: #333;
+}
+.father .resume_center .rbox .rli .chearfix .l1 a{
+    text-decoration: none;
+    color: #333333;
+}
+.father .resume_center .rbox .rli .chearfix .l1 a:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.father .resume_center .rbox .dlt{
+    margin: 20px 0;
+    color: #999;
+    font-size: 12px;
+}
+.father .resume_center .rbox .rli .chearfix .l4 span:hover{
+    color: #ff6000;
+    cursor: pointer;
+}
+.father .resume_center .rbox .rli .chearfix .l4 a{
+    text-decoration: none;
+    color: #333333;
+}
+.father .resume_center .rbox .rli .chearfix .l4 a:hover{
+    color: #ff6000;
+}

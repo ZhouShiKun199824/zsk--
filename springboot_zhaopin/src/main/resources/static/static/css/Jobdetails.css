@@ -1,0 +1,355 @@
+body,div{
+    margin: 0;
+    padding: 0;
+}
+/*导航条*/
+.header{
+    width: 100%;
+    height: 88px;
+}
+.header-bar{
+    width: 100%;
+    height: 32px;
+    background-color: #ff6000;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: white;
+}
+.header-bar-1{
+    margin-left:0px;
+}
+.header-bar span{
+    display:inline-block;
+    width: 100px;
+    height: 32px;
+}
+.header-bar-right-a{
+    margin-left: 280px;
+    display:inline-block;
+    width: 120px;
+    height: 32px;
+}
+.header-bar a{
+    text-decoration: none;
+    color: white;
+}
+.header-bar-denglu{
+    background-color:#ffa000;
+    height: 40px;
+}
+.header-bar-left-1:hover div{
+    display: block;
+}
+.shou-top{
+    width: 100%;
+}
+.shou-top .header-team{
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.header-team:hover a{
+    color: #1f1f1f;
+}
+.header-team span{
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+.shou-top-1{
+    float: right;
+}
+.shou-top-1 a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.shou-top-1 a:hover{
+    color: red;
+}
+.shou-top-1-01{
+    margin-right: 150px;
+}
+.shou-top-1-img1{
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.shou-top-1-img2{
+    margin-left: 180px;
+    margin-top: 18px;
+}
+.header-team span img{
+    float: left;
+}
+
+/*职位详情*/
+.head .headfirst{
+    width: 1002px;
+    height: 188px;
+    margin: auto;
+    border-bottom: 1px #E8E8E8 solid;
+    position: relative;
+}
+.head .headfirst .position{
+    width: 666px;
+    height: 157px;
+    /*background-color: #999999;*/
+    margin-top: 17px;
+    position: relative;
+}
+.head .headfirst .position strong{
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    font-size: 19px;
+    color: #FF6000;
+}
+.head .headfirst .position a{
+    color: black;
+    text-decoration: none;
+}
+.head .headfirst .position a:hover{
+    color: #FF6000;
+    text-decoration: underline; /*显示a样式*/
+}
+.head .headfirst .position .see-position{
+    font-size: 12px;
+    color: #00457D;
+    margin-left: 30px;
+}
+.head .headfirst .position .see-position:hover{
+    cursor: pointer;
+    color: #FF6000;
+}
+.head .headfirst .position .position-requirement{
+    margin-top: 30px;
+}
+.head .headfirst .position .position-requirement :nth-child(2n-1){
+    color: #666666;
+    font-size: 15px;
+}
+.head .headfirst .position .position-requirement :nth-child(2n){
+    color: #E8E8E8;
+    font-size: 15px;
+}
+.head .headfirst .position .welfare{
+    width: 60%;
+    margin-top: 20px;
+    color: #FF6000;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.head .headfirst .position .welfare div{
+    width: 60px;
+    text-align: center;
+    background-color: #FFF2E3;
+}
+.head .headfirst .collection{
+    width: 295px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    margin-top: 20px;
+}
+.head .headfirst .collection .icon-collection{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    background-image: url("../images/icon_job_orange.d1a35c10.png");
+    background-position: 0 -38px;
+}
+.head .headfirst .collection .icon-collectionchange{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    background-image: url("../images/icon_collection.svg");
+}
+.head .headfirst .collection .icon-competitive-power{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-image: url("../images/icon_job_orange.d1a35c10.png");
+}
+.head .headfirst .collection span{
+    font-size: 13px;
+    font-weight: 300;
+    position: relative;
+    top: -6px;
+}
+.head .headfirst .collection :nth-child(3){
+    position: relative;
+    left: 10px;
+    color: #E8E8E8;
+}
+.head .headfirst .collection :nth-child(2):hover{
+    color: #FF6000;
+    cursor: pointer;
+}
+.head .headfirst .collection :nth-child(5):hover{
+    color: #FF6000;
+    cursor: pointer;
+}
+.head .headfirst .but-sq{
+    width: 295px;
+    height: 44px;
+    background-color: #FF6000;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+.head .headfirst .but-sq a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+.head .headfirst .but-sq a img{
+    margin-top: 8px;
+}
+.head .headfirst .but-sq a span{
+    line-height: 40px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+}
+.information{
+    width: 1002px;
+    margin: auto;
+    position: relative;
+}
+.information .job-information{
+    width: 670px;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.information .job-information p{
+    font-weight: 400;
+    color: #333333;
+}
+.information .job-information h3{
+    border-left: 5px #FF6000 solid;
+    padding-left: 15px;
+}
+.information .contact-address{
+    width: 670px;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.information .contact-address p{
+    font-weight: 400;
+    color: #333333;
+}
+.information .contact-address h3{
+    border-left: 5px #FF6000 solid;
+    padding-left: 15px;
+}
+.information .company-information{
+    width: 295px;
+    height: 257px;
+    border: 1px #E8E8E8 solid;
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
+.information .company-information h3{
+    width: 253px;
+    height: 51px;
+    line-height: 51px;
+    margin: auto;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.information .company-information .com-msg{
+    width: 253px;
+    margin: auto;
+}
+.information .company-information .com-msg a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.information .company-information .com-msg a:hover{
+    color: #FF6000;
+    cursor: pointer;
+}
+.information .company-information .com-tag{
+    width: 253px;
+    margin: auto;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.information .company-information .com-tag p{
+    height: 18px;
+    color: #4c4c4c;
+    font-family: "宋体";
+}
+.information .company-information .com-tag :nth-child(1) .icon-tag{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/icon_comy.png");
+}
+.information .company-information .com-tag :nth-child(2) .icon-tag{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/icon_comy.png");
+    background-position: 0 40px;
+}
+.information .company-information .com-tag :nth-child(3) .icon-tag{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/icon_comy.png");
+    background-position: 0 20px;
+}
+.information .company-information .com-tag :nth-child(3):hover{
+    color: #FF6000;
+    cursor: pointer;
+}
+.information .company-information .com-det{
+    width: 253px;
+    margin: auto;
+}
+.information .company-information .com-det .icon-det{
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background-image: url("../images/icon_det.png");
+    background-position: -4px 51px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.information .company-information .com-det a{
+    text-decoration: none;
+    color: black;
+    font-family: "宋体";
+    position: relative;
+    top: -2px;
+}
+.information .company-information .com-det a:hover{
+    cursor: pointer;
+    color: #ff6000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

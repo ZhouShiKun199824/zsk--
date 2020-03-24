@@ -1,0 +1,194 @@
+body,div{
+    margin: 0;
+    padding: 0;
+}
+/*导航条*/
+.header{
+    width: 100%;
+    height: 88px;
+}
+.shou-top{
+    width: 100%;
+}
+.shou-top .header-team{
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px #E8E8E8 solid;
+}
+.header-team:hover a{
+    color: #1f1f1f;
+}
+.header-team span{
+    display: inline-block;
+    width: 100px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+.shou-top-1{
+    float: right;
+}
+.shou-top-1 a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.shou-top-1 a:hover{
+    color: red;
+}
+.shou-top-1-01{
+    margin-right: 150px;
+}
+.shou-top-1-img1{
+    margin-left: 170px;
+    margin-top: 5px;
+}
+.shou-top-1-img2{
+    margin-left: 180px;
+    margin-top: 18px;
+}
+.header-team span img{
+    float: left;
+}
+/*  ============================ */
+input{
+    border: 1px #EEEEEE solid;
+}
+input:focus{
+    outline: none;
+    border: 1px #FF6000 solid;
+}
+.register{
+    width: 500px;
+    height: 580px;
+    border: 1px #EEEEEE solid;
+    margin: auto;
+}
+.register .title{
+    color: #ff6000;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.register .tele{
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.register .tele span{
+    font-weight: 600;
+    display: block;
+}
+.register .tele input{
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.register .psw{
+    width: 65%;
+    margin:20px auto;
+    position: relative;
+}
+.register .psw span{
+    font-weight: 600;
+    display: block;
+}
+.register .psw input{
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.register .short-message{
+    width: 65%;
+    margin:20px auto;
+}
+.register .short-message span{
+    font-weight: 600;
+    display: block;
+}
+.register .short-message input{
+    width: 190px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.register .short-message .send-out{
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    border: 1px #FFB865 solid;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ff6000;
+    position: relative;
+    top: 1px;
+    left: 15px;
+    text-align: center;
+    line-height: 34px;
+    background-color: #FFF2E3;
+}
+.send-out:hover{
+    cursor: pointer;
+    background-color: #ff6000;
+    color: whitesmoke;
+}
+.register .res{
+    width: 334px;
+    height: 35px;
+    margin: auto;
+    background-color: #ff6000;
+    position: relative;
+    left: 3px;
+    text-align: center;
+    line-height: 35px;
+    color: #f8f8f8;
+}
+.register .res:hover{
+    cursor: pointer;
+}
+.register .check{
+    width: 65%;
+    margin:20px auto;
+    font-weight: 300;
+    font-size: 13px;
+}
+.register .check span{
+    color: #0045A7;
+}
+.register .check span:hover{
+    color: #ff6000;
+}
+.register .sign{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.register .sign :nth-child(2) a{
+    color: #ff6000;
+    text-decoration: none;
+}
+.register .remind{
+    color: #ff6000;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
